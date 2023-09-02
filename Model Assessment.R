@@ -18,9 +18,8 @@ measurements = constructs(
  composite("Absorptive",multi_items("Absorp",1:5)),
  composite("Adaptive",multi_items("Adapt",1:5)),
  composite("Restorative",multi_items("Restore",1:3)),
- composite("Social Capital",multi_items("Social",1:4)),
- 
-  higher_composite("Resilience",c("Absorptive","Adaptive","Restorative","Social Capital"), method = "two stage"),  
+
+  higher_composite("Resilience",c("Absorptive","Adaptive","Restorative"), method = "two stage"),  
   
  composite("Risk Management",multi_items("Risk",1:5)),
  composite("Exploitative",multi_items("Exploit",1:4)),
